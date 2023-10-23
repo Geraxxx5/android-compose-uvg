@@ -51,7 +51,7 @@ fun DetailMealScreen(
     }else{
         Scaffold(
             topBar = {
-                AppBar(title = "Categories", navController = navController)
+                AppBar(title = "Details", navController = navController)
             }
         ) {
             LazyVerticalGrid(

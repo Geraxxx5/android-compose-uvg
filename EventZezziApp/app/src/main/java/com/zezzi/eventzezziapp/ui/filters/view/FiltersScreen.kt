@@ -57,7 +57,7 @@ fun FilterScreen(
     }else {
         Scaffold(
             topBar = {
-                AppBar(title = "Categories", navController = navController)
+                AppBar(title = "Meals", navController = navController)
             }
         ) {
             LazyVerticalGrid(
